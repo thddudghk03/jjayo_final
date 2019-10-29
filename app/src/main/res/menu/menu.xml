@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setting_menu"
+        android:icon="@drawable/ic_setting"
+        android:orderInCategory="0"
+        android:title="menu"
+        app:showAsAction="always">
+        <menu>
+    <item
+        android:id="@+id/bgOff"
+        android:title="배경음악 끄기" />
+    <item
+        android:id="@+id/bgOn"
+        android:title="배경음악 켜기" />
+        </menu>
+    </item>
+</menu>

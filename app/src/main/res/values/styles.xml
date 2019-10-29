@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/sky_image</item>
+
+        <item name="android:buttonStyle">@style/PuddingButtonStyle</item>
+        <item name="android:textViewStyle">@style/PuddingTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/PuddingRadioButtonStyle</item>
+        <item name="android:checkboxStyle">@style/PuddingCheckboxStyle</item>
+        <item name="android:editTextStyle">@style/PuddingEditTextStyle</item>
+    </style>
+
+    <style name="PuddingTextViewStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/the_pudding_p</item>
+    </style>
+    <style name="PuddingButtonStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/the_pudding_p</item>
+    </style>
+    <style name="PuddingEditTextStyle" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:fontFamily">@font/the_pudding_p</item>
+    </style>
+    <style name="PuddingRadioButtonStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/the_pudding_p</item>
+    </style>
+    <style name="PuddingCheckboxStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
+    <item name="android:fontFamily">@font/the_pudding_p</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+        <item name="android:buttonStyle">@style/PuddingButtonStyle</item>
+        <item name="android:textViewStyle">@style/PuddingTextViewStyle</item>
+        <item name="android:radioButtonStyle">@style/PuddingRadioButtonStyle</item>
+        <item name="android:checkboxStyle">@style/PuddingCheckboxStyle</item>
+        <item name="android:editTextStyle">@style/PuddingEditTextStyle</item>
+    </style>
+</resources>
